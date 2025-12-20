@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 import com.pedro.bookManagement.exceptions.DuplicateResourceException;
 import com.pedro.bookManagement.models.Book;
-import com.pedro.bookManagement.repo.BookRepo;
+import com.pedro.bookManagement.repos.BookRepo;
 
 @Service
 public class BookService {

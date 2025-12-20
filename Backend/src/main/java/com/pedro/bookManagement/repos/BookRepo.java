@@ -1,4 +1,4 @@
-package com.pedro.bookManagement.repo;
+package com.pedro.bookManagement.repos;
 
 import java.util.List;
 
