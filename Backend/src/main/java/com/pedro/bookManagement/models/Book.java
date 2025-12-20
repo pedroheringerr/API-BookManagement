@@ -27,10 +27,12 @@ public class Book {
 	@Min(value = 1450, message = "Year published must be after the invention of printing")
 	@Max(value = 2100, message = "Year published must be a valid year")
 	@Column
-	private int yearPublished;
+	private Integer yearPublished;
 
 	@Column(length = 50)
 	private String genre;
+
+	protected Book() {}
 
 	public String getIsbn() {
 		return isbn;
